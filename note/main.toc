@@ -1,9 +1,9 @@
-\contentsline {section}{\numberline {1}Algorithms with numbers}{3}{section.2}%
-\contentsline {section}{\numberline {2}Divide-and-conquer Algorithms}{4}{section.3}%
-\contentsline {subsection}{\numberline {2.a}Multiplication}{4}{subsection.4}%
-\contentsline {subsection}{\numberline {2.b}Recurrence Relations}{4}{subsection.22}%
-\contentsline {subsection}{\numberline {2.c}Mergesort}{4}{subsection.25}%
-\contentsline {subsection}{\numberline {2.d}Medians}{5}{subsection.48}%
-\contentsline {subsection}{\numberline {2.e}Matrix Mltiplication}{5}{subsection.51}%
-\contentsline {subsection}{\numberline {2.f}Fast Fourier Transform}{5}{subsection.54}%
+\contentsline {section}{\numberline {1}Big-O Notation}{3}{section.2}%
+\contentsline {section}{\numberline {2}Divide-and-conquer Algorithms}{4}{section.9}%
+\contentsline {subsection}{\numberline {2.a}Multiplication}{4}{subsection.10}%
+\contentsline {subsection}{\numberline {2.b}Recurrence Relations}{4}{subsection.28}%
+\contentsline {subsection}{\numberline {2.c}Mergesort}{4}{subsection.31}%
+\contentsline {subsection}{\numberline {2.d}Medians}{5}{subsection.54}%
+\contentsline {subsection}{\numberline {2.e}Matrix Mltiplication}{5}{subsection.57}%
+\contentsline {subsection}{\numberline {2.f}Fast Fourier Transform}{5}{subsection.60}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
