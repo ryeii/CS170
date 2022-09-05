@@ -1,0 +1,9 @@
+# Fdb version 3
+["pdflatex"] 1662355324 "chap2.tex" "chap2.pdf" "chap2" 1662355325
+  "/opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/web2c/texmf.cnf" 1647894602 40174 4e2f94c7b252db2ad3c0cfdef6912ab3 ""
+  "/opt/homebrew/Cellar/texlive/20220321_2/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1647894602 2826556 0002dc3aea202f8dbf42bc967c64f503 ""
+  "chap2.aux" 1662355280 1869 801f5788140b42839a100968e807f2b4 ""
+  "chap2.tex" 1662355321 1121 275f82c34c25d937a62906114fbf45e9 ""
+  (generated)
+  "chap2.log"
+  "chap2.pdf"
