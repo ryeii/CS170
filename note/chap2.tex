@@ -26,7 +26,7 @@ Each call of \textit{mul} has three recursive calls, inputs of which are half th
 \[
 T(n) = 3T(n/2)+O(n)
 \]
-If apply the Master Algorithm in Chap 2.b, has the time complexity
+Apply the Master Algorithm in Chap 2.b, we conclude that the time complexity of this algorithm is
 \[
 T(n) \in O(n^{\log_23}) \approx O(n^{1.585})
 \]
@@ -76,7 +76,7 @@ The \textit{merge} function above does a constant amount of work (concatenating 
 \[
 T(n) = 2T(n/2) + O(n)
 \]
-Recall the Master Algorithm, here $a=b^k$, and therefore
+Recall the Master Algorithm in Chap 2.b, we conclude that the time complexity of this algorithm is
 \[
 T(n) \in O(n\log n)
 \]
