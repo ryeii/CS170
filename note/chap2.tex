@@ -37,9 +37,9 @@ T(n) \in O(n^{\log_23}) \approx O(n^{1.585})
 If $T(n) = aT(n/b) + cn^k$ and $T(1) = c$ for some constants $a$, $b$, $c$ and $k$, then
 \begin{equation*}
 T(n) \in \begin{cases}
-O(n^k) &if a<b^k \\
-O(n^k\log n) &if a=b^k \\
-O(n^{\log_ba}) &if a>b^k
+\Theta(n^k) &if a<b^k \\
+\Theta(n^k\log n) &if a=b^k \\
+\Theta(n^{\log_ba}) &if a>b^k
 \end{cases}
 \end{equation*}
 \end{theorem}

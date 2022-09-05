@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Homebrew) (preloaded format=pdflatex 2022.8.31)  5 SEP 2022 00:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Homebrew) (preloaded format=pdflatex 2022.8.31)  5 SEP 2022 11:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2036,9 +2036,9 @@ Package mdframed Info: mdframed detected package amsthm
 (mdframed)              on input line 8.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 17.
+(mdframed)              on input line 20.
 Package hyperref Info: bookmark level for unknown example defaults to 0 on inpu
-t line 17.
+t line 20.
 ) [3
 
 ]
@@ -2116,7 +2116,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  55208 strings out of 478268
  1235121 string characters out of 5835366
- 2129370 words of memory out of 5000000
+ 2129372 words of memory out of 5000000
  72372 multiletter control sequences out of 15000+600000
  492942 words of font info for 143 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2150,7 +2150,7 @@ ellar/texlive/20220321_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12
 ic/amsfonts/cm/cmssbx10.pfb></opt/homebrew/Cellar/texlive/20220321_2/share/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></opt/homebrew/Cellar/texlive/
 20220321_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (5 pages, 246711 bytes).
+Output written on main.pdf (5 pages, 247054 bytes).
 PDF statistics:
  254 PDF objects out of 1000 (max. 8388607)
  201 compressed objects within 3 object streams
