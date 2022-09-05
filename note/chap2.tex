@@ -72,7 +72,7 @@ function merge(x[1...k], y[1...h])
 Where $\circ$ denotes concatenation.
 \end{definition}
 
-The \textit{merge} function above does a constant amount of work (concatenating two arrays) per recursive call, for a total running time of $O(k + l)$. Thus the calls to \textit{merge} in \textit{mergesort} are linear, we conclude that the overall time taken by \textit{mergesort} is
+The \textit{merge} function above does a constant amount of work (concatenating two arrays) per recursive call, for a total running time of $O(k + h)$. Thus the calls to \textit{merge} in \textit{mergesort} are linear, we conclude that the overall time taken by \textit{mergesort} is
 \[
 T(n) = 2T(n/2) + O(n)
 \]
