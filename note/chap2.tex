@@ -6,19 +6,19 @@
 A divide-and-conquer algorithm for integer multiplication is defined as follows:
 \begin{lstlisting}[mathescape=true, language=Octave]
 function mul(x(0b[1...k]), y(0b[1...h]))
-%Input: Positive integers x, y in binary
-%Output: x times y
+	%Input: Positive integers x, y in binary
+	%Output: x times y
 
-n = $\max$(size of x, size of y)
-if n == 1: return $x\times y$
+	n = $\max$(size of x, size of y)
+	if n == 1: return $x\times y$
 
-$x_L$, $x_R$ = x(0b[1...$\lceil n/2\rceil$]), x(0b[$\lfloor n/2\rfloor$...n])
-$y_L$, $y_R$ = y(0b[1...$\lceil n/2\rceil$]), y(0b[$\lfloor n/2\rfloor$...n])
+	$x_L$, $x_R$ = x(0b[1...$\lceil n/2\rceil$]), x(0b[$\lfloor n/2\rfloor$...n])
+	$y_L$, $y_R$ = y(0b[1...$\lceil n/2\rceil$]), y(0b[$\lfloor n/2\rfloor$...n])
 
-$P_1 = mul(x_L, y_L)$
-$P_2 = mul(x_R, y_R)$
-$P_3 = mul(x_L+x_R, y_L+y_R)$
-return $P_1\times 2^n + (P_3-P_1-P_2)\times 2^{n/2}+P_2$
+	$P_1 = mul(x_L, y_L)$
+	$P_2 = mul(x_R, y_R)$
+	$P_3 = mul(x_L+x_R, y_L+y_R)$
+	return $P_1\times 2^n + (P_3-P_1-P_2)\times 2^{n/2}+P_2$
 \end{lstlisting}
 Where $0b[1...k]$ denotes the binary string representing a number.
 \end{definition}
