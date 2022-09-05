@@ -22,7 +22,7 @@ return $P_1\times 2^n + (P_3-P_1-P_2)\times 2^{n/2}+P_2$
 \end{lstlisting}
 Where $0b[1...k]$ denotes the binary string representing a number.
 \end{definition}
-Each call to \textit{mul} has three recursive calls, inputs of which are half the size of the original inputs, and the base cases (x times y) take constant time. Therefore we conclude that the time taken by this algorithm is
+Each call of \textit{mul} has three recursive calls, inputs of which are half the size of the original inputs, and the base cases (x times y) take constant time. Therefore we conclude that the time taken by this algorithm is
 \[
 T(n) = 3T(n/2)+O(n)
 \]
@@ -82,6 +82,11 @@ T(n) \in O(n\log n)
 \]
 
 \subsection{Medians}
+
+\begin{definition}[selection]
+A randomized divide-and-conquer algorithm for selection is defined as follows
+
+\end{definition}
 
 \subsection{Matrix Mltiplication}
 

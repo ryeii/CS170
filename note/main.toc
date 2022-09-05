@@ -4,6 +4,6 @@
 \contentsline {subsection}{\numberline {2.b}Recurrence Relations}{4}{subsection.22}%
 \contentsline {subsection}{\numberline {2.c}Mergesort}{4}{subsection.25}%
 \contentsline {subsection}{\numberline {2.d}Medians}{5}{subsection.48}%
-\contentsline {subsection}{\numberline {2.e}Matrix Mltiplication}{5}{subsection.49}%
-\contentsline {subsection}{\numberline {2.f}Fast Fourier Transform}{5}{subsection.52}%
+\contentsline {subsection}{\numberline {2.e}Matrix Mltiplication}{5}{subsection.51}%
+\contentsline {subsection}{\numberline {2.f}Fast Fourier Transform}{5}{subsection.54}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

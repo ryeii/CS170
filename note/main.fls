@@ -1941,9 +1941,9 @@ INPUT chap2.aux
 INPUT chap2.aux
 INPUT ./main.out
 INPUT ./main.out
+INPUT /opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc
 INPUT /opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc
 INPUT /opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc
-INPUT /opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc
 INPUT /opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb
 INPUT /opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol12.pfb
 INPUT /opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol7.pfb
