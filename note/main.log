@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Homebrew) (preloaded format=pdflatex 2022.8.31)  4 SEP 2022 23:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Homebrew) (preloaded format=pdflatex 2022.8.31)  4 SEP 2022 23:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2080,12 +2080,12 @@ Package microtype Info: Fixing zero \fontdimen 6 for font `U/MnSymbolD/m/n/5'
 (microtype)             (new value: 5.0pt) on input line 12.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 28.
+(mdframed)              on input line 36.
 Package hyperref Info: bookmark level for unknown theorem defaults to 0 on inpu
-t line 28.
+t line 36.
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 41.
+(mdframed)              on input line 49.
  [4
 
 
@@ -2093,17 +2093,17 @@ Package mdframed Info: mdframed detected package amsthm
 ]
 Package mdframed Info: mdframed detected package amsthm 
  changed the theorem header of amsthm
-(mdframed)              on input line 81.
+(mdframed)              on input line 89.
 ) [5] (./main.aux (./chap1.aux) (./chap2.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 55180 strings out of 478268
- 1234607 string characters out of 5835366
- 2121685 words of memory out of 5000000
+ 55182 strings out of 478268
+ 1234623 string characters out of 5835366
+ 2122683 words of memory out of 5000000
  72354 multiletter control sequences out of 15000+600000
- 492893 words of font info for 142 fonts, out of 8000000 for 9000
+ 492942 words of font info for 143 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  123i,19n,127p,10640b,2158s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/fonts/enc/dvips/mns
@@ -2133,7 +2133,7 @@ ist/fonts/type1/public/amsfonts/cm/cmss12.pfb></opt/homebrew/Cellar/texlive/202
 brew/Cellar/texlive/20220321_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmti12.pfb></opt/homebrew/Cellar/texlive/20220321_2/share/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (5 pages, 232368 bytes).
+Output written on main.pdf (5 pages, 233828 bytes).
 PDF statistics:
  235 PDF objects out of 1000 (max. 8388607)
  186 compressed objects within 2 object streams

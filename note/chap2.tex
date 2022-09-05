@@ -15,13 +15,21 @@ if n == 1: return $x\times y$
 $x_L$, $x_R$ = x(0b[1...$\lceil n/2\rceil$]), x(0b[$\lfloor n/2\rfloor$...n])
 $y_L$, $y_R$ = y(0b[1...$\lceil n/2\rceil$]), y(0b[$\lfloor n/2\rfloor$...n])
 
-$P_1 = multiply(x_L, y_L)$
-$P_2 = multiply(x_R, y_R)$
-$P_3 = multiply(x_L+x_R, y_L+y_R)$
+$P_1 = mul(x_L, y_L)$
+$P_2 = mul(x_R, y_R)$
+$P_3 = mul(x_L+x_R, y_L+y_R)$
 return $P_1\times 2^n + (P_3-P_1-P_2)\times 2^{n/2}+P_2$
 \end{lstlisting}
 Where $0b[1...k]$ denotes the binary string representing a number.
 \end{definition}
+Each call to \textit{mul} has three recursive calls, inputs of which are half the size of the original inputs, and the base cases (x times y) take constant time. Therefore we conclude that the time taken by this algorithm is
+\[
+T(n) = 3T(n/2)+O(n)
+\]
+If apply the Master Algorithm in Chap 2.b, has the time complexity
+\[
+T(n) \in O(n^{\log_23}) \approx O(n^{1.585})
+\]
 
 \subsection{Recurrence Relations}
 
