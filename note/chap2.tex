@@ -28,7 +28,7 @@ T(n) = 3T(n/2)+O(n)
 \]
 Apply the Master Algorithm in Chap 2.b, we conclude that the time complexity of this algorithm is
 \[
-T(n) \in O(n^{\log_23}) \approx O(n^{1.585})
+T(n) \in \Theta(n^{\log_23}) \approx \Theta(n^{1.585})
 \]
 
 \subsection{Recurrence Relations}
@@ -37,9 +37,9 @@ T(n) \in O(n^{\log_23}) \approx O(n^{1.585})
 If $T(n) = aT(n/b) + cn^k$ and $T(1) = c$ for some constants $a$, $b$, $c$ and $k$, then
 \begin{equation*}
 T(n) \in \begin{cases}
-\Theta(n^k) &if a<b^k \\
-\Theta(n^k\log n) &if a=b^k \\
-\Theta(n^{\log_ba}) &if a>b^k
+\Theta(n^k) &if \; a<b^k \\
+\Theta(n^k\log n) &if \; a=b^k \\
+\Theta(n^{\log_ba}) &if \; a>b^k
 \end{cases}
 \end{equation*}
 \end{theorem}
@@ -78,8 +78,16 @@ T(n) = 2T(n/2) + O(n)
 \]
 Recall the Master Algorithm in Chap 2.b, we conclude that the time complexity of this algorithm is
 \[
-T(n) \in O(n\log n)
+T(n) \in \Theta(n\log n)
 \]
+
+\begin{remark}
+$n\log n$ is the lower bound for sorting, and therefore \textit{mergesort} is optimal.
+
+\begin{proof}
+Sorting algorithms can be depicted as trees that each non-leaf node represents a comparison between two elements, and each leaf denotes a permutation of the input array (and thus a binary search tree since each non-leaf nodes have two children). Consider such tree that sorts an array $a[1...n]$. The total number of the leaves is $n!$. A binary tree of depth $d$ has at most $2^d$ leaves. Therefore, the depth of the tree and the complexity of this algorithm should be at least $\log(n!)$, which is the worst case of this algorithm. Since $\log(n!)\le cn\log(n)$, we conclude that $n\log(n)$ is optimal for sorting algorithms.
+\end{proof}
+\end{remark}
 
 \subsection{Medians}
 
