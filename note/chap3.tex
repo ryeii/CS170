@@ -97,3 +97,15 @@ Is guaranteed to give a linearization.
 \end{remark}
 
 \subsection{Strongly Connected Components}
+
+\begin{definition}[Node connectivity]
+	Two nodes u and v of a directed graph are connected if there is a path from u to v and a path from v to u.
+\end{definition}
+
+\begin{definition}[Strongly Connected]
+	Disjoint sets in V partitioned by the connectivity relations are strongly connected components.
+\end{definition}
+
+\begin{theorem}
+	All directed graph is a DAG of its strongly connected components.
+\end{theorem}
