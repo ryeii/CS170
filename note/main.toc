@@ -9,13 +9,13 @@
 \contentsline {section}{\numberline {3}Decomposition of Graphs}{7}{section.63}%
 \contentsline {subsection}{\numberline {3.a}DFS in Undirected Graphs}{7}{subsection.64}%
 \contentsline {subsection}{\numberline {3.b}DFS in Directed Graphs}{7}{subsection.94}%
-\contentsline {subsection}{\numberline {3.c}Strongly Connected Components}{9}{subsection.103}%
-\contentsline {section}{\numberline {4}Paths in Graphs}{10}{section.104}%
-\contentsline {subsection}{\numberline {4.a}Distances}{10}{subsection.105}%
-\contentsline {subsection}{\numberline {4.b}BFS}{10}{subsection.106}%
-\contentsline {subsection}{\numberline {4.c}Lengths on Edges}{10}{subsection.107}%
-\contentsline {subsection}{\numberline {4.d}Dijkstra's}{10}{subsection.108}%
-\contentsline {subsection}{\numberline {4.e}Priority Queue Implementation}{10}{subsection.109}%
-\contentsline {subsection}{\numberline {4.f}Shortest Paths in the Presence of Negative Edges}{10}{subsection.110}%
-\contentsline {subsection}{\numberline {4.g}Shortest Paths in DAGs}{10}{subsection.111}%
+\contentsline {subsection}{\numberline {3.c}Strongly Connected Components}{9}{subsection.114}%
+\contentsline {section}{\numberline {4}Paths in Graphs}{10}{section.115}%
+\contentsline {subsection}{\numberline {4.a}Distances}{10}{subsection.116}%
+\contentsline {subsection}{\numberline {4.b}BFS}{10}{subsection.117}%
+\contentsline {subsection}{\numberline {4.c}Lengths on Edges}{10}{subsection.118}%
+\contentsline {subsection}{\numberline {4.d}Dijkstra's}{10}{subsection.119}%
+\contentsline {subsection}{\numberline {4.e}Priority Queue Implementation}{10}{subsection.120}%
+\contentsline {subsection}{\numberline {4.f}Shortest Paths in the Presence of Negative Edges}{10}{subsection.121}%
+\contentsline {subsection}{\numberline {4.g}Shortest Paths in DAGs}{10}{subsection.122}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

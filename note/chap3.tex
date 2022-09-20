@@ -37,7 +37,7 @@ procedure postvisit(v)
 	post[v] = clock
 	clock += 1
 \end{lstlisting}
-\end{definition}[visit orderings]
+\end{definition}
 
 \begin{remark}
 The implementation of a DFS uses a stack and DFS's runtime is $O(|V|+|E|)$.
@@ -65,16 +65,35 @@ An edge (u, v) in E is:
 	A directed graph has a cycle iff its DFS reveals a back edge. If the DFS of a directed graph reveals no back edge, the graph is a Directed Acyclic Graph (DAG).
 \end{definition}
 
+\begin{theorem}
+	All DAG can be linearized (topologically sorted). That is, if G(V, E) is a DAG with (u, v) in E, then post(u) $>$ post(v).
+\end{theorem}
+
+\begin{theorem}
+	All DAG must have at least one source (a node with no ingoing edges) and at least one sink (a node with no outgoing edges). 
+\end{theorem}
+
+\begin{theorem}
+	A DAG, after delete one of its sources, is still a DAG.
+\end{theorem}
+
+\begin{theorem}
+	A DAG have one or more possible linearizations. The following algorithm,
+\begin{lstlisting}[mathescape=true, language=Octave]
+procedure linearize(G)
+	while G:
+		find a source s in G
+		pop s
+\end{lstlisting}
+Is guaranteed to give a linearization.
+\end{theorem}
+
 \begin{remark}
 	In a DF traverse of a binary tree, the visiting order of nodes can be found by labeling the graph like follows: \\
 	\begin{center}
 		\includegraphics[scale=0.2]{images/dfs_order.png} \\
 	\end{center}
 	Where red dots denote preorder, green dots denote in-order, and blue dots denote post-order.
-\end{remark}
-
-\begin{remark}
-	Topological sort: if G(V, E) is a DAG with (u, v) in E, then post(u) > post(v)
 \end{remark}
 
 \subsection{Strongly Connected Components}
